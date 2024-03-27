@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sensoryomics</title>
+        <meta charset="utf-8">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+                              <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                              <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css"></link>
+        <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css>
+        <link rel="preconnect" href=https://fonts.googleapis.com>
+                              <link rel="preconnect" href=https://fonts.gstatic.com crossorigin>
+                              <link href=https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;600;700&display=swap rel="stylesheet">
+    </head>
+    <body>
+		<div class="spacer"></div>
+      <section class="picture-display">
+        <div class="container px-4 py-5 features">
+          <div class="row">
+            <div class="col-md-7 ">
+              <h2 class="featurette-heading">Mapping Human Nociceptors
+              </h2>
+              <p class="lead text-justify">Nociceptors are specialized sensory neurons that detect damaging or potentially damaging stimuli and are found in the dorsal root ganglia (DRG) and trigeminal ganglia. These neurons are critical for the generation of neuronal signals that ultimately create the perception of pain. We sought to generate information for human nociceptors with the goal of identifying transcriptomic signatures of nociceptors, identifying species differences and potential drug targets.</p>
+              <p class="text-justify" style=”line-height: 100%” <em <font size=3><b>Citation:</b> Diana Tavares-Ferreira, Stephanie Shiers, Pradipta R Ray, Andi Wangzhou, Vivekanand Jeevakumar, Ishwarya Sankaranarayanan, Anna M Cervantes, Jeffrey C Reese, Alexander Chamessian, Bryan A Copits, Patrick M Dougherty, Robert W Gereau 4th, Michael D Burton, Gregory Dussor, Theodore J Price, Spatial transcriptomics of dorsal root ganglia identifies molecular signatures of human nociceptors.Sci. Transl. Med.14,eabj8186(2022). DOI:10.1126/scitranslmed.abj8186 <a href=https://pubmed.ncbi.nlm.nih.gov/35171654/>(Article link)</a></font></em></p>
+                                               <button type="button" id="d" class="button btn action-button btn-lg px-4 me-md-2" title="To acess the Gene Search tab, Click here!" style="margin-top: 15px;margin-left: 100px">
+                                                            Explore Data
+                                               </button>
+                                               <button type="button" class="button btn btn-lg px-4 me-md-2" title="Download Loupe Browser Files" style="margin-top: 15px;margin-left: 130px">
+                <a href=https://utdallas.app.box.com/s/dgs8a7vo9uu9cx6l81somaxb468hpgnz style="color:white">Download Data</a>
+                <svg xmlns=http://www.w3.org/2000/svg width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+              </button>
+            </div>
+            <div class="col-md-5 style="padding-left: 0px;  padding-right: 0px;">
+              <img src="style/MHN_1.webp" class="pic 1" alt="Responsive image" width="100%" height="470" style="border: none;">
+            </div>
+          </div>
+     
+                              <hr class="featurette-divider">
+          <div class="row">
+                                <div class="col-md-5">
+              <img src="style/NPP.webp" alt="pic 1" width="100%" height="470" style="border: none;">
+            </div>
+            <div class="col-md-7 style="padding-left: 50px;  padding-right: 0px;">
+              <h2 class="featurette-heading"> Thoracic vertebrectomy pain DRG bulk RNA sequencing
+              </h2>
+              <p class="lead text-justify">Neuropathic pain is a leading cause of high-impact pain, is often disabling and is poorly managed by current therapeutics. Here we focused on a unique group of neuropathic pain patients undergoing thoracic vertebrectomy where the dorsal root ganglia is removed as part of the surgery.
+                                                            Our findings give direct support for sex differences in underlying mechanisms of neuropathic pain in patient populations.</p>
+                                               <p class="text-justify" style=”line-height: 100%” <em <font size=3><b>Citation:</b> Pradipta R Ray, Stephanie Shiers, James P Caruso, Diana Tavares-Ferreira, Ishwarya Sankaranarayanan, Megan L Uhelski, Yan Li, Robert Y North, Claudio Tatsui, Gregory Dussor, Michael D Burton, Patrick M Dougherty, Theodore J Price, RNA profiling of human dorsal root ganglia reveals sex differences in mechanisms promoting neuropathic pain, Brain, Volume 146, Issue 2, February 2023, Pages 749–766 <a href=https://doi.org/10.1093/brain/awac266>(Journal article link)</a></font></em></p>
+              <button type="button" id="d1" class="button btn action-button btn-lg px-4 me-md-2" title="To acess the Neuropathic Pain-TPM tab, Click here!" style="margin-top: 10px;">
+                Explore Data
+              </button>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+          <div class="row">
+            <div class="col-md-7">
+              <h2 class="featurette-heading"> Human and Mouse DRG Transcriptome Profiles
+              </h2>
+              <p class="lead text-justify">We present our work as an online, searchable repository creating a valuable resource for the community. Our analyses provide insight into DRG biology for guiding development of novel therapeutics and a blueprint for cross-species transcriptomic analyses.</p>
+             <button type="button" class="button btn btn-lg px-4 me-md-2">
+                <a href=https://paincenter.utdallas.edu/sensoryomics/ style="color:white">Explore Data</a>
+                <svg xmlns=http://www.w3.org/2000/svg width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+              </button>
+                                               </div>
+                                               <div class="col-md-5">
+              <img src="style/1.webp" alt="pic 1" width="100%" height="470" style="border: none;">
+            </div>
+          </div>
+
+           <hr class="featurette-divider">
+          <div class="row"> 
+                                <div class="col-md-5">
+              <img src="style/3.webp" alt="pic 3" width="100%" height="470" style="border: none;">
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading"> Legacy Site 
+                                               </h2>
+              <p class="lead">We are currently working on migrating all our datasets to one inclusive R shiny site. If you would like to view the original legacy site you can visit the below site.</p>
+             <button type="button" class="button btn btn-lg px-4 me-md-2">
+                <a href=https://apps.utdallas.edu/bbs/painneurosciencelab/sensoryomics/ style="color:white">Legacy Site</a>
+                <svg xmlns=http://www.w3.org/2000/svg width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+                 
+                 <hr class="featurette-divider">
+                 <div class="spacer"></div>
+                 <div class="spacer"></div>
+                 <!--<div class="row featurette">-->
+      <footer class="footer text-center" style="background-color:#00422e; color:white; margin: 0; padding: 0;width:100%">
+        
+        <div>
+          <h1 class="featurette-heading">Want to stay up to date?</h1>
+          <p>Sign up for our newsletter and we'll keep you updated on our data</p>
+          <form>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input id="text" type="email" placeholder="Enter your email" style="height: 46px; border-radius: 6px; min-width: 10%; width: 15%; padding-left: 5px;" title="Please enter a valid email address" pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}
+[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+" id="email-input">
+                <button type="button" class="button btn btn-lg" style="margin-left: 10px;" id="submitemail">Submit</button>
+            </div>
+            <span style="color: red" id="label"></span>
+            <span style="color: green" id="label_correct"></span>
+          </form>
+        </div>
+        <div class="social-bar d-flex container p-5 justify-content-center">
+          <div>
+            <button class="social-btn" style="background-color: #FF0000" role="button">
+              <a href=https://www.youtube.com/channel/UC172TED0zMWvx9mszhvvtgQ/><i class="bi bi-youtube" style="color: #fff;"></i></a>
+            </button>
+            <button class="social-btn" style="background-color: #55acee" role="button">
+              <a href=https://twitter.com/UTDPainCenter>
+                <i class="bi bi-twitter" style="color: #fff"></i>
+              </a>
+            </button>
+            <button class="social-btn" style="background-color: #ac2bac" role="button">
+              <a href=https://www.instagram.com/utdpaincenter<i class="bi bi-instagram" style="color: #fff"></i></a>
+            </button>
+
+          </div>
+        </div>
+        <div class="text-center p-3" style="color: white;padding-bottom: 10px">
+          © 2021 Copyright:
+          <a class="text-light" href="#">Sensoryomics</a>
+        </div>
+      </footer>
+                 <!--</div>-->
+      <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
