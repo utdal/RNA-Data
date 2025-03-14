@@ -29,8 +29,8 @@ library(googlesheets4)
 options(warn = -1) # help in suppressing the warnings in the console
 
 # Google sheets authentication
-#gs4_auth(cache=".secrets", email="mark.g.chavez@gmail.com")
-#ss <- gs4_get("https://docs.google.com/spreadsheets/d/1zQLx_i-Y4sUikD79r6fx8vJFi-TuBWilAlC66HtXXSE/edit?usp=sharing")
+#gs4_auth(cache=".secrets", email="@gmail.com") #update gmail
+#ss <- gs4_get("") # update google sheet link
 
 # Import the data
 #drg <- drg.combined
